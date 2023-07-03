@@ -1,9 +1,14 @@
 # Code Refactor Starter Code
 Cloned the initial code and refactored to meet Semantic requirements. 
+
+## User Story
+```
 AS A marketing agency
 I WANT a codebase that follows accessibility standards
 SO THAT our own site is optimized for search engines
-
+```
+## Acceptance Criteria
+```
 GIVEN a webpage meets accessibility standards
 WHEN I view the source code
 THEN I find semantic HTML elements
@@ -15,5 +20,5 @@ WHEN I view the heading attributes
 THEN they fall in sequential order
 WHEN I view the title element
 THEN I find a concise, descriptive title
+```
 
-file:///C:/Users/bamaf/onedrive/desktop/bootcamp/Module_1_challenge_2023/Develop/index.html
