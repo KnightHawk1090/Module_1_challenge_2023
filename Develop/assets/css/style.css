@@ -1,13 +1,16 @@
+/* box-sizing, padding, and margin for the Global Styles. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* background color for the body styles */
 body {
     background-color: #d9dcd6;
 }
 
+/* padding, font-family, background color, and color for the Header Styles */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* display and font-size for the Header h1 */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* seo h1 styles and color */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* padding, margin, float, font-family, and font-size for the Header div */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/* header div ul styles */
 .header div ul {
     list-style-type: none;
 }
 
+/* display and margin for the Header div ul li styles */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* color and text-decoration for link styles */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* font-size for the paragraphs */
 p {
     font-size: 16px;
 }
 
+/* height, width, margin, background-image, size, and position for the Hero Styles */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,26 @@ p {
     background-position: center;
 }
 
+/* float and margin for Float left styles */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* foat and margin for the Float Right styles */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* width, display, and margin for the Content styles */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Margin-right, padding, clear, float, width, height, font-family, and background color for the Benefits */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,16 +101,19 @@ p {
     background-color: #2589bd;
 }
 
+/* margin-bottom and color for the Benefit-lead */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* margin bottom and color for the Benefit-brand */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* margin-bottom and color for the Benefit-cost */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
@@ -106,34 +124,39 @@ p {
     text-align: center;
 }
 
+/* margin-bottom and text-align for the Benefit-lead h3 */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* margin-bottom and text-align for Benefit-cost h3 */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* display, margin, and max-width for Benefit-lead image */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* display, margin, and max-width for Benefit-brand image */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* display, margin, and max-width for Benefit-cost image */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* margin-bottom, padding, height, font-family. background-color, and color for the Search-engine */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +166,7 @@ p {
     color: #ffffff;
 }
 
+/* margin-bottom, padding, height, font-family, background-color, andc color for the Online-reputation-management */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +176,7 @@ p {
     color: #ffffff;
 }
 
+/* margin-bottom, padding, hegiht, font-family, background-color, and color for the Social-media-marketing */ 
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,40 +186,47 @@ p {
     color: #ffffff;
 }
 
+/* max-height for Search-engin-optimization img */
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* max-height for the Online reputation managment img */
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/* max-height for the Social-media-marketing-img */
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* margin-bottom and font-size for the Search-engine-optimization */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* margin-bottom and font-size for the online-reputation-management */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* margin-bottom and font-size for the social-mediat-marketing */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* padding, clear, font-family, and text-align for the Footer */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* font-size for the footer-h2 */
 .footer h2 {
     font-size: 20px;
 }
